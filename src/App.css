@@ -1,38 +1,165 @@
-.App {
+.main-app-container {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.header-main-container {
+  display: flex;
+  background-color: rgb(92, 20, 141);
+}
+
+.header-title-container {
+  width: 50%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-title-container h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icons-main-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-main-container {
+  background-color: rgb(142, 88, 179);
+  display: flex;
+}
+
+.tecnologias-main-container {
   display: flex;
   flex-direction: column;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.tecnologias-main-container h1 {
+  width: 300px;
+  text-align: center;
+  color: rgb(8, 8, 8);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.tecnologias-styles {
+  margin: 5px;
+}
+
+.tecnologias-styles:hover {
+  box-shadow: 0 1px 4px rgba(105, 96, 96, 0.2), 0 4px 16px rgb(0 0 0 / 30%);
+  padding: 2px;
+  border-radius: 3px;
+  background-color: rgba(172, 154, 154, 0.2);
+  transition-delay: 50ms;
+}
+
+.perfil-image {
+  border-radius: 100%;
+}
+
+.about-texts-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
   align-items: center;
+  padding: 20px;
+}
+
+.about-texts-container h1{
+  color: rgb(8, 8, 8);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.about-texts-container p{
+  text-align: justify;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.tecnologias-container {
+  padding: 5px;
+  border-radius: 3px;
+  display: flex;
+  background-color: rgba(216, 196, 230, 0.468);
+  flex-wrap: wrap;
+  width: 300px;
+  height:300px;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.projects-absolut-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(142, 88, 179);
+}
+
+.projects-main-container {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.projects-main-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projects-main-container p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.projects-main-container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.projects-container  {
+  border-radius: 5px;
+  width: 300px;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgba(216, 196, 230, 0.468);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 20%), 0 4px 16px;
+  justify-content: space-evenly;
+}
+
+.tecnologia-link-container {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+}
+
+.projects-title-container {
+  width: 200px;
+  margin: auto;
+}
+
+.projects-title-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
 }

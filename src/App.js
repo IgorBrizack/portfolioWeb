@@ -5,7 +5,7 @@ import Projetos from './Components/Projetos';
 
 function App() {
   return (
-    <div>
+    <div className='main-app-container'>
       <Header />
       <AboutMe />
       <Projetos />
