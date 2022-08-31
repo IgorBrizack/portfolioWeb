@@ -27,7 +27,7 @@
 }
 
 .about-main-container {
-  background-color: rgb(142, 88, 179);
+  background-color: rgb(210, 173, 235);
   /* background-color: rgb(69, 69, 69); */
   display: flex;
 }
@@ -100,7 +100,7 @@
   padding: 5px;
   border-radius: 3px;
   display: flex;
-  background-color: rgba(216, 196, 230, 0.468);
+  background-color: rgba(155, 126, 175, 0.468);
   flex-wrap: wrap;
   width: 300px;
   height:300px;
@@ -112,7 +112,7 @@
 .projects-absolut-container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(142, 88, 179);
+  background-color: rgb(210, 173, 235);
 }
 
 .projects-main-container {
