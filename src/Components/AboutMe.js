@@ -11,9 +11,11 @@ function AboutMe() {
         <div className="pefil-image-container">
           <img  className="perfil-image" align="center" alt="Igor" src={perfilImage} />
         </div>
-        <p>
-          Olá, me chamo Igor Brizack, sou de Salvador - Ba - Brasil. Tenho 27 anos e sou formado em Engenharia Civil. Sou novo aluno da Trybe, cursando na turma 21. Nesse momento estou em transição de carreira buscando ingressar na área de tecnologia como Desenvolvedor Web Full-Stack. No atual momento, finalizei o módulo de Front-End e estou caminhando para a conclusão do módulo de Back-End.
-        </p>
+        <div className="about-me-text">
+          <p>
+            Olá, me chamo Igor Brizack, sou de Salvador - Ba - Brasil. Tenho 27 anos e sou formado em Engenharia Civil. Sou novo aluno da Trybe, cursando na turma 21. Nesse momento estou em transição de carreira buscando ingressar na área de tecnologia como Desenvolvedor Web Full-Stack. No atual momento, finalizei o módulo de Front-End e estou caminhando para a conclusão do módulo de Back-End.
+          </p>
+        </div>
       </div>
       <div className="tecnologias-main-container">
         <h1>

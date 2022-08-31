@@ -28,7 +28,16 @@
 
 .about-main-container {
   background-color: rgb(142, 88, 179);
+  /* background-color: rgb(69, 69, 69); */
   display: flex;
+}
+
+.about-me-text {
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgba(216, 196, 230, 0.468);
+  padding: 10px;
+  box-shadow: 0 1px 4px rgba(105, 96, 96, 0.2), 0 4px 16px rgb(0 0 0 / 30%);
 }
 
 .tecnologias-main-container {
@@ -97,6 +106,7 @@
   height:300px;
   justify-content: space-evenly;
   margin: auto;
+  box-shadow: 0 1px 4px rgba(105, 96, 96, 0.2), 0 4px 16px rgb(0 0 0 / 30%);
 }
 
 .projects-absolut-container {
