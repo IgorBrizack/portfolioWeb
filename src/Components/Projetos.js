@@ -96,7 +96,7 @@ function Projetos() {
               Store Manager API MSC
             </h1>
             <p>
-              A aplicação Store Manager, consiste na criação de uma API Restful utilizando o padrão MSC (Model, Service, Controller), durante o densenvimento foi solicitado que a aplicação houvesse 60% de cobertura dos testes unitários.
+              A aplicação Store Manager API, consiste na criação de uma API Restful utilizando o padrão MSC (Model, Service, Controller), durante o densenvimento foi solicitado que a aplicação houvesse 60% de cobertura dos testes unitários.
             </p>
           </div>
           <div className="tecnologia-link-container">
