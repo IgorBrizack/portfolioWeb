@@ -90,6 +90,22 @@ function Projetos() {
             </a>
           </div>
         </div>
+        <div className="projects-container">
+          <div>
+            <h1>
+              Store Manager API MSC
+            </h1>
+            <p>
+              A aplicação Store Manager, consiste na criação de uma API Restful utilizando o padrão MSC (Model, Service, Controller), durante o densenvimento foi solicitado que a aplicação houvesse 60% de cobertura dos testes unitários.
+            </p>
+          </div>
+          <div className="tecnologia-link-container">
+            <h2>Acessar repositório</h2>
+            <a href="https://github.com/IgorBrizack/ProjetoStoreManager" target='_blank' rel="noreferrer">
+            <img className="redirect-button" alt="githubImg" height="30" width="40" src={image} /> 
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )
