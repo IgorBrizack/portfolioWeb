@@ -106,6 +106,22 @@ function Projetos() {
             </a>
           </div>
         </div>
+        <div className="projects-container">
+          <div>
+            <h1>
+              Blogs API MSC - ORM
+            </h1>
+            <p>
+              O projeto Blogs API, foi desenvolvido para que fosse possível interagir com um banco de dados através da uma ORM, nesse caso utilizamos o Sequelize. Além de fazermos o CRUD foi necessário aplicar a meotodologia MSC(Model, Service, Controller).
+            </p>
+          </div>
+          <div className="tecnologia-link-container">
+            <h2>Acessar repositório</h2>
+            <a href="https://github.com/IgorBrizack/BlogsApi" target='_blank' rel="noreferrer">
+            <img className="redirect-button" alt="githubImg" height="30" width="40" src={image} /> 
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )
