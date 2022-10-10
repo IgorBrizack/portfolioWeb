@@ -22,17 +22,18 @@ function AboutMe() {
           Tecnologias
         </h1>
         <div className="tecnologias-container">
-          <img className="tecnologias-styles" align="center" alt="Igor" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
-          <img className="tecnologias-styles" align="center" alt="Igor-React" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-          <img className="tecnologias-styles" align="center" alt="Igor-HTML" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
-          <img className="tecnologias-styles" align="center" alt="Igor-CSS" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
-          <img className="tecnologias-styles" align="center" alt="Igor-Redux" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
-          <img className="tecnologias-styles" align="center" alt="Igor-Jest" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
-          <img className="tecnologias-styles" align="center" alt="Igor-Git" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-          <img className="tecnologias-styles" align="center" alt="Igor-BootStrap" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-          <img className="tecnologias-styles" align="center" alt="Igor-Docker" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
-          <img className="tecnologias-styles" align="center" alt="Igor-mySQL" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-          <img className="tecnologias-styles" align="center" alt="Igor-nodeJS" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor" title="JavaScript" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor-React"  title="React" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor-HTML" title="HTML" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor-CSS" title="CSS" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor-Redux"  title="Redux" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor-Jest"  title="Jest" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor-Git"  title="Git" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor-BootStrap" title="BootStrap" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor-Docker"  title="Docker" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor-mySQL" title="SQL" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor-nodeJS" title="Node.js" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" />
+          <img className="tecnologias-styles" align="center" alt="Igor-TypeScript" title="TypeScript" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
         </div>
       </div>
     </div>

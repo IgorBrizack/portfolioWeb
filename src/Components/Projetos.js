@@ -122,6 +122,22 @@ function Projetos() {
             </a>
           </div>
         </div>
+        <div className="projects-container">
+          <div>
+            <h1>
+              TrybeSmith TS - API
+            </h1>
+            <p>
+              O projeto TrybeSmith API, foi desenvolvido com a linguagem TypeScript, nele foi implementado um CRUD para inserção de ordens, produtos, usúarios e login. Foi idealizado utilizando o MSC(model, service, controller), JWT (JSON Web Tokens), Express, JOI, SQL e Node.jS.
+            </p>
+          </div>
+          <div className="tecnologia-link-container">
+            <h2>Acessar repositório</h2>
+            <a href="https://github.com/IgorBrizack/TrybeSmithTS-Api" target='_blank' rel="noreferrer">
+            <img className="redirect-button" alt="githubImg" height="30" width="40" src={image} /> 
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )
