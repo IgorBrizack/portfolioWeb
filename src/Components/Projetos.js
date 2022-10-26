@@ -138,6 +138,22 @@ function Projetos() {
             </a>
           </div>
         </div>
+        <div className="projects-container">
+          <div>
+            <h1>
+              Trybe Futebol Clube
+            </h1>
+            <p>
+              O projeto Trybe Futebol Clube, foi o último projeto do módulo de Back-End, a ideia desse projeto foi a de criar um API Rest com Node.Js e TypeScrypt, utilizando os fundamentos do POO. Foi implementado atutenticação com JWT, utilização do ORM Sequelize para manipulação do banco de dados e desenvolvido testes de cobertura com Mocha, Shai e Sinon, para validação dos requisitos.
+            </p>
+          </div>
+          <div className="tecnologia-link-container">
+            <h2>Acessar repositório</h2>
+            <a href="https://github.com/IgorBrizack/TFC-Project-API" target='_blank' rel="noreferrer">
+            <img className="redirect-button" alt="githubImg" height="30" width="40" src={image} /> 
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )
