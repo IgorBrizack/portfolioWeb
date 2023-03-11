@@ -59,7 +59,7 @@
 
 	.nav__menu {
 		position: fixed;
-		bottom: 0;
+		bottom: -100%;
 		left: 0;
 		width: 100%;
 		background-color: var(--body-color);
@@ -69,13 +69,17 @@
 		transition: .3s;
 	}
 
+	.show-menu {
+		bottom: 0;
+	}
+
 	.nav__list {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 2rem;
 	}
 
-	.nav__icons {
+	.nav__icon {
 		font-size: 1.2rem;
 	}
 
@@ -90,6 +94,11 @@
 
 	.nav__close:hover {
 		color: var(--title-color-dark)
+	}
+
+	.nav__toggle {
+		font-size: 1.1rem;
+		cursor: pointer;
 	}
 
 	.nav__icon,
