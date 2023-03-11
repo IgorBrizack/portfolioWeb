@@ -1,15 +1,11 @@
 import './App.css';
-import AboutMe from './Components/AboutMe';
-import Header from './Components/Header';
-import Projetos from './Components/Projetos';
+import Header from './components/header/Header';
 
 function App() {
   return (
-    <div className='main-app-container'>
+    <>
       <Header />
-      <AboutMe />
-      <Projetos />
-    </div>
+    </>
   );
 }
 
