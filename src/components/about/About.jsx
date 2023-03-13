@@ -15,6 +15,7 @@ const About = () => {
 					<Info />
 					<p className="about__description">
 						Desenvolvedor Web Full Stack, crio aplicações Front-end com React e desenvolvo o Back-end principalmente em Node com Express, utilizando banco de dados SQL e NoSQL.
+						Formado na Trybe curso com mais de 1500 horas de aulas de programação, abordando parte técnina e de soft-skills.
 					</p>
 					<a download="" href={CV} className="button button--flex">
 						Download CV 
