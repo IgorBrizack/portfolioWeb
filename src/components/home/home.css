@@ -53,7 +53,7 @@
   top: 1rem;
 }
 
-.home__desciption {
+.home__description {
   max-width: 400px;
   margin-bottom: var(--mb-3);
 }
@@ -131,7 +131,7 @@
     margin-bottom: var(--mb-1);
   }
 
-  .home_-subtitle::before {
+  .home__subtitle::before {
     width: 42px;
     top: 0.8rem;
   }

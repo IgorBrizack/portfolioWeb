@@ -54,9 +54,9 @@ const Data = () => {
                   ></path>
             	</svg>
 			</h1>
-			<h3 className="home__subtitle">Desenvolvedor Web Full Stack</h3>
+			<h3 className="home__subtitle">Desenvolvedor Web</h3>
 			<p className="home__description">
-				Sou Engenheiro Civil e Desenvolvedor
+				Sou Desenvolvedor
 				Web Full Stack com experiência em
 				criação de páginas web e API's Rest,
 				estou em transição de carreira após

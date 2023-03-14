@@ -15,10 +15,11 @@ const Info = () => {
 				<span className="about__subtitle">20 + Projects</span>
 			</div>
 
-			{/* <div className="about__box">
-				<h3 className="about__title"></h3>
-				<span className="about__subtitle"></span>
-			</div> */}
+			<div className="about__box">
+				<i class='bx bx-group about__icon'></i>
+				<h3 className="about__title">Team Projects</h3>
+				<span className="about__subtitle">5 + Projects Done</span>
+			</div>
 		</div>
 	)
 }
