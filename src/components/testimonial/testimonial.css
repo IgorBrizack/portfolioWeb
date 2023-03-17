@@ -3,7 +3,7 @@
 }
 
 .testimonial__card {
-  background-color: va(--container-color);
+  background-color: var(--container-color);
   border: 1px solid rgba(0,0,0,0.1);
   padding: 1.5rem 2rem;
   border-radius: 1.5rem;
@@ -13,7 +13,7 @@
 .testimonial__img {
   width: 60px;
   border-radius: 3rem;
-  margin-bottom: var(---mb-1);
+  margin-bottom: var(--mb-1);
 }
 
 .testimonial__name {
@@ -31,7 +31,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  background-color: var(--title-color) !important;
+  background-color: var(--text-color) !important;
 }
 
 @media screen and (max-width: 992px) {
@@ -42,16 +42,4 @@
   .testimonial__card {
     padding: 1.25rem 1.5rem;
   }
-}
-
-/* For medium devices */
-@media screen and (max-width: 768px) {
-  
-}
-
-@media screen and (max-width: 576px) {
-}
-
-/* For small devices */
-@media screen and (max-width: 350px) {
 }
