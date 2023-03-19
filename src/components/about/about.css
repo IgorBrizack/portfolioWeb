@@ -71,8 +71,6 @@
   }
 }
 
-/* For medium devices */
-
 @media screen and (max-width: 576px) {
   .about__info {
     grid-template-columns: repeat(3, 1fr);
@@ -83,7 +81,6 @@
   }
 }
 
-/* For small devices */
 @media screen and (max-width: 350px) {
   .about__info {
     grid-template-columns: repeat(2, 1fr);
