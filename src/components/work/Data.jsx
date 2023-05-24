@@ -46,7 +46,7 @@ export const projectsData = [
     image: Work6,
     title: 'Página de Login',
     category: 'Frontend',
-    url: 'https://github.com/IgorBrizack/mp-tela-login-tailwind'
+    url: 'https://codante-login-screen.vercel.app/'
   }
 ]
 
