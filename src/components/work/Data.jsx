@@ -3,6 +3,7 @@ import Work2 from '../../assets/WEB_SCRAPER.png';
 import Work3 from '../../assets/Trybe_Foods_Main.png';
 import Work4 from '../../assets/Movie_Challenge.png';
 import Work5 from '../../assets/TFC_pic.png';
+import Work6 from '../../assets/codante.png';
 
 export const projectsData = [
   {
@@ -39,6 +40,13 @@ export const projectsData = [
     title: 'TFC',
     category: 'Full Stack',
     url: 'https://github.com/IgorBrizack/TFC-Project-API'
+  },
+  {
+    id: 6,
+    image: Work6,
+    title: 'Página de Login',
+    category: 'Frontend',
+    url: 'https://github.com/IgorBrizack/mp-tela-login-tailwind'
   }
 ]
 
