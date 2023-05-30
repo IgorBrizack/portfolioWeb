@@ -4,6 +4,7 @@ import Work3 from '../../assets/Trybe_Foods_Main.png';
 import Work4 from '../../assets/Movie_Challenge.png';
 import Work5 from '../../assets/TFC_pic.png';
 import Work6 from '../../assets/codante.png';
+import Work7 from '../../assets/work7.png';
 
 export const projectsData = [
   {
@@ -16,7 +17,7 @@ export const projectsData = [
   {
     id: 2,
     image: Work2,
-    title: 'WebScraper',
+    title: 'Web Scraper',
     category: 'Backend',
     url: 'https://github.com/IgorBrizack/web-scraper'
   },
@@ -37,7 +38,7 @@ export const projectsData = [
   {
     id: 5,
     image: Work5,
-    title: 'TFC',
+    title: 'TFC - Trybe Futebol Clube',
     category: 'Full Stack',
     url: 'https://github.com/IgorBrizack/TFC-Project-API'
   },
@@ -47,6 +48,13 @@ export const projectsData = [
     title: 'Página de Login',
     category: 'Frontend',
     url: 'https://codante-login-screen.vercel.app/'
+  },
+  {
+    id: 7,
+    image: Work7,
+    title: 'E-commerce Scraper',
+    category: 'Full Stack',
+    url: 'https://crawler-web-frontend.vercel.app/'
   }
 ]
 
