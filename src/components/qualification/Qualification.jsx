@@ -71,8 +71,8 @@ const Qualification = () => {
 
 						<div className="qualification__data">
 							<div>
-								<h3 className="qualification__title">Web Developer</h3>
-								<span className="qualification__subtitle">Trybe - Escola de programação</span>
+								<h3 className="qualification__title">Web Developer Full Stack</h3>
+								<span className="qualification__subtitle">Trybe - Web Development School</span>
 								<div className="qualification__calender">
 									<i className="uil uil-calendar-alt"></i> 2022 - 2023
 								</div>
@@ -94,43 +94,22 @@ const Qualification = () => {
 							<div>
 								<h3 className="qualification__title">Web Development</h3>
 								<span className="qualification__subtitle">Trybe Tunes</span>
-								<div className="qualification__calender">
-									<i className="uil uil-calendar-alt"></i> 2022
-								</div>
-							</div>
-						</div>
-
-						<div className="qualification__data">
-							<div></div>
-							<div>
-								<span className="qualification__rounder"></span>
-								<span className="qualification__line"></span>
-							</div>
-
-							<div>
-								<h3 className="qualification__title">Web Development</h3>
+								<br></br>
 								<span className="qualification__subtitle">GastosApp</span>
-								<div className="qualification__calender">
-									<i className="uil uil-calendar-alt"></i> 2023
-								</div>
-							</div>
-						</div>
-
-						<div className="qualification__data">
-							<div></div>
-							<div>
-								<span className="qualification__rounder"></span>
-								<span className="qualification__line"></span>
-							</div>
-
-							<div>
-								<h3 className="qualification__title">Web Development</h3>
+								<br></br>
 								<span className="qualification__subtitle">Web Crawler</span>
 								<div className="qualification__calender">
-									<i className="uil uil-calendar-alt"></i> 2023
+									<i className="uil uil-calendar-alt"></i> 2022-2023
+								</div>
+
+								<br></br>
+								<h3 className="qualification__title">Software Engineer</h3>
+								<span className="qualification__subtitle">LEDAX Energia</span>
+								<div className="qualification__calender">
+									<i className="uil uil-calendar-alt"></i> Full Time Job Since 2023
 								</div>
 							</div>
-						</div>
+						</div>						
 					</div>
 				</div>
 			</div>
