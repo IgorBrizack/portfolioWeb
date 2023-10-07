@@ -1,7 +1,7 @@
 import React from "react";
 import './about.css'
 import AboutImg from '../../assets/PERFIL.png';
-import CV from '../../assets/Curriculo-att-09-02-23.pdf'
+import CV from '../../assets/Curriculo_att_06-10-2023.pdf'
 import Info from "./Info";
 
 const About = () => {
@@ -14,8 +14,8 @@ const About = () => {
 				<div className="about__data">
 					<Info />
 					<p className="about__description">
-						Desenvolvedor Web Full Stack, crio aplicações Front-end com React e desenvolvo o Back-end principalmente em Node com Express, utilizando banco de dados SQL e NoSQL.
-						Formado na Trybe curso com mais de 1500 horas de aulas de programação, abordando parte técnina e de soft-skills.
+						Desenvolvedor Web Full Stack, crio aplicações Frontend com React (TypeScript) e desenvolvo o Backend principalmente em Node (Express) ou Python (FastAPI), utilizando banco de dados SQL e NoSQL. Tenho conhecimento breve de algumas estruturas da AWS, fazendo deploy e manutenção de alguns sistemas em nuvem.
+						Sou formado na Trybe curso com mais de 1500 horas de aulas de programação, abordando parte técnica e de soft-skills.
 					</p>
 					<a download="" href={CV} className="button button--flex">
 						Download CV 
