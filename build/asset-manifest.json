@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.317aba27.css",
+    "main.js": "/static/js/main.580d99f3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Trybe_Foods_Main.png": "/static/media/Trybe_Foods_Main.3826d46508ca86b80094.png",
+    "static/media/codante.png": "/static/media/codante.51ad0b18be5537ee57c5.png",
+    "static/media/Curriculo-att-09-02-23.pdf": "/static/media/Curriculo-att-09-02-23.8d84515afacee780ed38.pdf",
+    "static/media/work7.png": "/static/media/work7.2acfb027e0625d88d6a5.png",
+    "static/media/Marcus_profile.png": "/static/media/Marcus_profile.144328f29d85f7a4092f.png",
+    "static/media/Gastos_APP.png": "/static/media/Gastos_APP.415533f8029666a15416.png",
+    "static/media/TFC_pic.png": "/static/media/TFC_pic.ea727008d9c7adc7c73a.png",
+    "static/media/PERFIL.png": "/static/media/PERFIL.d399427364b6e6516d20.png",
+    "static/media/Junior_profile.jpeg": "/static/media/Junior_profile.fc1ce3e40cb2f92be79c.jpeg",
+    "static/media/Movie_Challenge.png": "/static/media/Movie_Challenge.67068d98ca513caae7e9.png",
+    "static/media/Matheus_profile.jpeg": "/static/media/Matheus_profile.dd05f3b1cb8ebaa40ee9.jpeg",
+    "static/media/Kadu_profile.jpeg": "/static/media/Kadu_profile.016a2367027439849a8d.jpeg",
+    "static/media/Tamires_Profile.jpeg": "/static/media/Tamires_Profile.faa38209c72ece896908.jpeg",
+    "static/media/Giovani_profile.jpeg": "/static/media/Giovani_profile.6c7f5a97b5ca78e7b31b.jpeg",
+    "static/media/VItoria_profile.jpeg": "/static/media/VItoria_profile.f600f14b85dc51830892.jpeg",
+    "index.html": "/index.html",
+    "main.317aba27.css.map": "/static/css/main.317aba27.css.map",
+    "main.580d99f3.js.map": "/static/js/main.580d99f3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.317aba27.css",
+    "static/js/main.580d99f3.js"
+  ]
+}
