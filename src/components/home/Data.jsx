@@ -58,9 +58,9 @@ const Data = () => {
 			<p className="home__description">
 				Sou Desenvolvedor
 				Web Full Stack com experiência em
-				criação de páginas web e API's Rest,
-				estou em transição de carreira após
-				decidir ingressar na área de tecnologia.
+				desenvolvimento de páginas Web, API's Rest, Web Scraping.
+				Faço parte do time de desenvolvedores da LEDAX, dando apoio no desenvolvimento da nossa plataforma 
+        de monitoramento e gestão para o mercado livre de energia do Brasil.
 			</p>
 
 			<a href="#contact" className="button button--flex">
