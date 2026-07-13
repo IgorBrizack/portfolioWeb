@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Igor Brizack — Engenheiro de Software Backend & Cloud",
+    "description": "Engenheiro de Software especializado em sistemas backend, infraestrutura cloud e arquitetura distribuída. Construindo APIs e serviços escaláveis com Go, Python, AWS e TypeScript."
+  },
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "skills": "Skills",
+    "work": "Projetos",
+    "contact": "Contato",
+    "resume": "Currículo"
+  },
+  "hero": {
+    "eyebrow": "Engenheiro de Software — Backend & Cloud",
+    "title_line1": "Construindo sistemas",
+    "title_line2": "backend que aguentam",
+    "title_line3": "a pressão real.",
+    "description": "Projeto e construo APIs escaláveis, sistemas distribuídos e infraestrutura em nuvem — com foco crescente em performance, observabilidade e arquitetura limpa.",
+    "stat_years": "4+ anos entregando software em produção",
+    "stat_stack": "Go · Python · AWS · React · TypeScript",
+    "stat_focus": "Focado em confiabilidade, performance e observabilidade",
+    "cta_contact": "Entrar em contato",
+    "cta_resume": "Baixar currículo",
+    "cta_github": "GitHub",
+    "cta_linkedin": "LinkedIn"
+  },
+  "about": {
+    "eyebrow": "Sobre mim",
+    "title": "Da engenharia civil ao backend",
+    "paragraph_1": "Comecei minha carreira como Engenheiro Civil, passando anos projetando estruturas onde um único erro de cálculo podia comprometer tudo que vinha depois. Essa forma de pensar — modelar com cuidado, verificar constantemente, respeitar as partes que sustentam o sistema — nunca me deixou. Só encontrou um novo material para trabalhar.",
+    "paragraph_2": "Em 2022 migrei para engenharia de software, passando pelo programa intensivo de fullstack da Trybe antes de entrar no mercado de trabalho. Desde então já construí APIs REST e microsserviços em FastAPI e Go, coloquei pipelines serverless em produção na AWS e atuei em toda a stack, do PostgreSQL a interfaces em React.",
+    "paragraph_3": "Hoje meu foco está claramente no backend: projetar sistemas que se mantêm confiáveis sob tráfego real, instrumentá-los para que falhas fiquem visíveis antes de doer, e tomar decisões arquiteturais pragmáticas em vez de correr atrás de modismos. Ainda me importo com o frontend — só me importo mais com o que acontece quando ele chama a API.",
+    "paragraph_4": "Baseado no Brasil, aberto a vagas remotas com times internacionais.",
+    "badge_civil": "Engenharia Civil",
+    "badge_transition": "Transição de carreira, 2022",
+    "badge_software": "Engenharia de Software"
+  },
+  "experience": {
+    "eyebrow": "Experiência",
+    "title": "Onde eu construí coisas",
+    "present": "Atual",
+    "ledax": {
+      "role": "Desenvolvedor Fullstack",
+      "company": "LEDAX Energia",
+      "period": "Set 2023 — Atual",
+      "summary": "Projetando e construindo a espinha dorsal de uma plataforma B2B2B de gestão de energia, de pipelines de dados serverless a APIs em produção.",
+      "bullets": [
+        "Projetei e implementei APIs REST escaláveis e microsserviços utilizando FastAPI e Go.",
+        "Liderei a criação do EnergiQ Hub, plataforma B2B2B de gestão energética, da arquitetura à entrega.",
+        "Construí pipelines de CI/CD com testes de integração e unitários, reduzindo regressões em produção.",
+        "Desenvolvi pipelines de dados e crawlers para coleta automatizada de dados em escala.",
+        "Construí processamento serverless orientado a eventos com AWS Lambda, SQS e SNS.",
+        "Implementei autenticação e autorização (JWT, escopos) e integrações centrais com banco de dados.",
+        "Melhorei a performance e a confiabilidade do sistema com otimizações e decisões arquiteturais pontuais.",
+        "Contribuí com o desenvolvimento frontend em React e TypeScript em paralelo ao trabalho de backend."
+      ],
+      "tech": ["Go", "Python", "FastAPI", "AWS Lambda", "SQS", "SNS", "PostgreSQL", "React", "TypeScript", "Docker", "CI/CD"]
+    },
+    "smartrips": {
+      "role": "Desenvolvedor Fullstack",
+      "company": "Smartrips",
+      "period": "Abr 2024 — Nov 2024",
+      "summary": "Mantive e escalei uma plataforma web sob restrições reais de produção, com foco em refatorar código legado sem quebrar o que já funcionava.",
+      "bullets": [
+        "Mantive e melhorei a performance e a escalabilidade da plataforma web.",
+        "Refatorei sistemas legados com foco em manutenibilidade e eficiência de longo prazo.",
+        "Integrei APIs GraphQL e melhorei o fluxo de dados entre serviços.",
+        "Utilizei Docker e pipelines de CI/CD para manter deploys consistentes e repetíveis.",
+        "Aumentei a produtividade do time através de componentes reutilizáveis e ferramentas internas."
+      ],
+      "tech": ["GraphQL", "Docker", "CI/CD", "React", "TypeScript"]
+    }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Ferramentas que eu uso",
+    "categories": {
+      "languages": "Linguagens",
+      "backend": "Backend",
+      "cloud": "Cloud & DevOps",
+      "frontend": "Frontend",
+      "databases": "Bancos de Dados",
+      "observability": "Observabilidade",
+      "architecture": "Arquitetura"
+    }
+  },
+  "highlights": {
+    "eyebrow": "Foco Técnico",
+    "title": "Com o que me importo ao construir",
+    "items": {
+      "system_design": {
+        "title": "System Design",
+        "description": "Desenhar serviços em torno das restrições que realmente importam — throughput, modos de falha e o custo de errar."
+      },
+      "distributed_systems": {
+        "title": "Sistemas Distribuídos",
+        "description": "Trabalhar com arquiteturas assíncronas orientadas a eventos, usando filas e message brokers para desacoplar serviços."
+      },
+      "api_design": {
+        "title": "Design de APIs",
+        "description": "Construir APIs REST e GraphQL previsíveis, versionadas com critério e fáceis de outros times consumirem."
+      },
+      "clean_architecture": {
+        "title": "Clean Architecture",
+        "description": "Estruturar o código para que a lógica de negócio fique independente de frameworks, bancos de dados e mecanismos de entrega."
+      },
+      "caching": {
+        "title": "Estratégia de Cache",
+        "description": "Aplicar cache onde ele compensa a complexidade que adiciona, e saber onde ele não deveria estar."
+      },
+      "performance": {
+        "title": "Otimização de Performance",
+        "description": "Fazer profiling antes de otimizar, tratando latência e throughput como requisito de produto, não um detalhe posterior."
+      },
+      "observability": {
+        "title": "Monitoramento & Tracing",
+        "description": "Instrumentar sistemas com Grafana, Prometheus, Loki, Tempo e OpenTelemetry para que incidentes sejam diagnosticados em minutos, não horas."
+      },
+      "cicd": {
+        "title": "CI/CD & Infraestrutura como Código",
+        "description": "Automatizar testes e deploys, provisionando infraestrutura com Terraform em vez de clicar em consoles."
+      }
+    }
+  },
+  "work": {
+    "eyebrow": "Projetos Selecionados",
+    "title": "Sistemas que eu construí",
+    "subtitle": "Trabalho de engenharia representativo das minhas experiências recentes — as plataformas abaixo refletem o tipo de problema com o qual realmente passo meu tempo.",
+    "items": {
+      "energiq": {
+        "title": "EnergiQ Hub",
+        "role": "Desenvolvedor líder",
+        "description": "Uma plataforma B2B2B de gestão de energia, construída do zero — cobrindo design de API, pipelines de dados e a arquitetura central do backend.",
+        "goal": "Dar a operadores do mercado de energia uma plataforma confiável para gerenciar contas, contratos e dados de consumo em escala.",
+        "tech": ["FastAPI", "Go", "PostgreSQL", "AWS Lambda", "SQS/SNS", "React", "TypeScript"],
+        "challenge": "Coordenar a ingestão assíncrona de dados de múltiplas fontes externas mantendo a plataforma consistente e observável.",
+        "impact": "Tornou-se a plataforma central da linha de produtos de gestão energética da empresa."
+      },
+      "pipelines": {
+        "title": "Pipelines de Dados e Mensageria",
+        "role": "Engenheiro backend",
+        "description": "Crawlers e pipelines de dados assíncronos para coleta automatizada de dados, construídos para rodar de forma confiável em escala.",
+        "goal": "Automatizar processos de coleta de dados que antes eram manuais, sem sacrificar confiabilidade.",
+        "tech": ["Go", "Python", "AWS Lambda", "SQS", "SNS"],
+        "challenge": "Lidar com falhas parciais de forma resiliente em jobs assíncronos longos e com múltiplas etapas.",
+        "impact": "Eliminou trabalho manual de coleta de dados e reduziu o tempo entre a fonte de dados e o registro utilizável."
+      },
+      "serverless": {
+        "title": "Sistemas Serverless Orientados a Eventos",
+        "role": "Engenheiro backend",
+        "description": "Aplicações orientadas a eventos construídas sobre AWS Lambda, SQS e SNS para processamento assíncrono sem gerenciar servidores.",
+        "goal": "Desacoplar cargas de trabalho lentas ou irregulares do fluxo principal de requisições.",
+        "tech": ["AWS Lambda", "SQS", "SNS", "CloudFormation"],
+        "challenge": "Desenhar estratégias de retry e dead-letter que falhem de forma visível em vez de perder dados silenciosamente.",
+        "impact": "Melhorou a resiliência do sistema e reduziu custos de infraestrutura ao escalar a zero quando ocioso."
+      }
+    }
+  },
+  "timeline": {
+    "eyebrow": "Trajetória",
+    "title": "Caminho de carreira",
+    "items": {
+      "civil_degree": {
+        "period": "2013 — 2019",
+        "title": "Bacharelado em Engenharia Civil",
+        "place": "Wyden Área 1",
+        "description": "Construí uma base sólida em análise estrutural, precisão e resolução rigorosa de problemas."
+      },
+      "trybe": {
+        "period": "2022 — 2023",
+        "title": "Programa de Desenvolvimento Fullstack",
+        "place": "Trybe",
+        "description": "Programa intensivo com mais de 1.500 horas cobrindo fundamentos de engenharia fullstack e boas práticas de engenharia de software — o ponto de virada para a tecnologia."
+      },
+      "ledax": {
+        "period": "2023 — Atual",
+        "title": "Desenvolvedor Fullstack",
+        "place": "LEDAX Energia",
+        "description": "Liderando o desenvolvimento backend de uma plataforma B2B2B de gestão de energia, com responsabilidade crescente sobre arquitetura e infraestrutura."
+      },
+      "smartrips": {
+        "period": "2024",
+        "title": "Desenvolvedor Fullstack",
+        "place": "Smartrips",
+        "description": "Escalei e refatorei uma plataforma web em produção em paralelo à atuação na LEDAX."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "Vamos conversar",
+    "description": "Aberto a vagas de engenharia backend e cloud com times internacionais. A forma mais rápida de falar comigo é por e-mail ou LinkedIn.",
+    "email_label": "E-mail",
+    "linkedin_label": "LinkedIn",
+    "github_label": "GitHub",
+    "location_label": "Localização",
+    "location_value": "Bahia, Brasil (aberto a remoto)"
+  },
+  "footer": {
+    "built_with": "Projetado e construído por Igor Brizack.",
+    "back_to_top": "Voltar ao topo"
+  },
+  "lang_switch": {
+    "en": "EN",
+    "pt": "PT"
+  }
+}
