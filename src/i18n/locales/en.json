@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Igor Brizack — Backend & Cloud Software Engineer",
+    "description": "Software Engineer specialized in backend systems, cloud infrastructure and distributed architecture. Building scalable APIs and services with Go, Python, AWS and TypeScript."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "work": "Work",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "hero": {
+    "eyebrow": "Software Engineer — Backend & Cloud",
+    "title_line1": "Building backend",
+    "title_line2": "systems that hold",
+    "title_line3": "under pressure.",
+    "description": "I design and build scalable APIs, distributed systems, and cloud infrastructure — with a growing focus on performance, observability and clean architecture.",
+    "stat_years": "4+ years shipping production software",
+    "stat_stack": "Go · Python · AWS · React · TypeScript",
+    "stat_focus": "Focused on reliability, performance and observability",
+    "cta_contact": "Get in touch",
+    "cta_resume": "Download résumé",
+    "cta_github": "GitHub",
+    "cta_linkedin": "LinkedIn"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "From blueprints to backends",
+    "paragraph_1": "I started my career as a Civil Engineer, spending years designing structures where a single miscalculation could compromise everything downstream. That mindset — model carefully, verify constantly, respect the load-bearing parts of the system — never really left me. It just found a new material to work with.",
+    "paragraph_2": "In 2022 I made the switch to software engineering, going through Trybe's intensive fullstack program before moving into production work. Since then I've built REST APIs and microservices in FastAPI and Go, shipped serverless pipelines on AWS, and worked across the stack from PostgreSQL to React interfaces.",
+    "paragraph_3": "Today my focus sits squarely on the backend: designing systems that stay reliable under real traffic, instrumenting them so failures are visible before they're painful, and making pragmatic architectural calls instead of chasing trends. I still care about the frontend — I just care more about what happens when it calls the API.",
+    "paragraph_4": "Based in Brazil, open to remote roles with international teams.",
+    "badge_civil": "Civil Engineering",
+    "badge_transition": "Career switch, 2022",
+    "badge_software": "Software Engineering"
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Where I've built things",
+    "present": "Present",
+    "ledax": {
+      "role": "Fullstack Developer",
+      "company": "LEDAX Energia",
+      "period": "Sep 2023 — Present",
+      "summary": "Designing and building the backbone of a B2B2B energy management platform, from serverless data pipelines to production APIs.",
+      "bullets": [
+        "Designed and implemented scalable REST APIs and microservices using FastAPI and Go.",
+        "Led the creation of EnergiQ Hub, a B2B2B platform for energy management, from architecture to delivery.",
+        "Built CI/CD pipelines with integration and unit tests, cutting down regressions reaching production.",
+        "Developed data pipelines and crawlers for automated data collection at scale.",
+        "Built serverless, event-driven processing with AWS Lambda, SQS and SNS.",
+        "Implemented authentication and authorization (JWT, scopes) and core database integrations.",
+        "Improved system performance and reliability through targeted optimizations and architectural decisions.",
+        "Contributed to frontend development in React and TypeScript alongside backend work."
+      ],
+      "tech": ["Go", "Python", "FastAPI", "AWS Lambda", "SQS", "SNS", "PostgreSQL", "React", "TypeScript", "Docker", "CI/CD"]
+    },
+    "smartrips": {
+      "role": "Fullstack Developer",
+      "company": "Smartrips",
+      "period": "Apr 2024 — Nov 2024",
+      "summary": "Maintained and scaled a web platform under real production constraints, with a focus on refactoring legacy code without breaking what worked.",
+      "bullets": [
+        "Maintained and improved the performance and scalability of the web platform.",
+        "Refactored legacy systems with a focus on maintainability and long-term efficiency.",
+        "Integrated GraphQL APIs and improved data flow between services.",
+        "Used Docker and CI/CD pipelines to keep deployments consistent and repeatable.",
+        "Increased team productivity through reusable components and internal tooling."
+      ],
+      "tech": ["GraphQL", "Docker", "CI/CD", "React", "TypeScript"]
+    }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Tools I reach for",
+    "categories": {
+      "languages": "Languages",
+      "backend": "Backend",
+      "cloud": "Cloud & DevOps",
+      "frontend": "Frontend",
+      "databases": "Databases",
+      "observability": "Observability",
+      "architecture": "Architecture"
+    }
+  },
+  "highlights": {
+    "eyebrow": "Technical Focus",
+    "title": "What I care about when I build",
+    "items": {
+      "system_design": {
+        "title": "System Design",
+        "description": "Designing services around the constraints that actually matter — throughput, failure modes, and the cost of being wrong."
+      },
+      "distributed_systems": {
+        "title": "Distributed Systems",
+        "description": "Working with asynchronous, event-driven architectures using queues and message brokers to decouple services."
+      },
+      "api_design": {
+        "title": "API Design",
+        "description": "Building REST and GraphQL APIs that are predictable, versioned sensibly, and easy for other teams to consume."
+      },
+      "clean_architecture": {
+        "title": "Clean Architecture",
+        "description": "Structuring codebases so business logic stays independent of frameworks, databases, and delivery mechanisms."
+      },
+      "caching": {
+        "title": "Caching Strategy",
+        "description": "Applying caching where it earns its complexity, and knowing where it doesn't belong."
+      },
+      "performance": {
+        "title": "Performance Optimization",
+        "description": "Profiling before optimizing, and treating latency and throughput as product requirements, not afterthoughts."
+      },
+      "observability": {
+        "title": "Monitoring & Tracing",
+        "description": "Instrumenting systems with Grafana, Prometheus, Loki, Tempo and OpenTelemetry so incidents are diagnosed in minutes, not hours."
+      },
+      "cicd": {
+        "title": "CI/CD & Infrastructure as Code",
+        "description": "Automating tests and deployments, and provisioning infrastructure with Terraform instead of clicking through consoles."
+      }
+    }
+  },
+  "work": {
+    "eyebrow": "Selected Work",
+    "title": "Systems I've built",
+    "subtitle": "Representative engineering work from recent roles — the platforms below reflect the kind of problems I actually spend my time on.",
+    "items": {
+      "energiq": {
+        "title": "EnergiQ Hub",
+        "role": "Lead developer",
+        "description": "A B2B2B platform for energy management, built from the ground up — covering API design, data pipelines and the core backend architecture.",
+        "goal": "Give energy market operators a reliable platform to manage accounts, contracts and consumption data at scale.",
+        "tech": ["FastAPI", "Go", "PostgreSQL", "AWS Lambda", "SQS/SNS", "React", "TypeScript"],
+        "challenge": "Coordinating asynchronous data ingestion from multiple external sources while keeping the platform consistent and observable.",
+        "impact": "Became the core platform powering the company's energy management product line."
+      },
+      "pipelines": {
+        "title": "Messaging & Data Pipelines",
+        "role": "Backend engineer",
+        "description": "Asynchronous crawlers and data pipelines for automated data collection, built to run reliably at scale.",
+        "goal": "Automate data collection processes that were previously manual, without sacrificing reliability.",
+        "tech": ["Go", "Python", "AWS Lambda", "SQS", "SNS"],
+        "challenge": "Handling partial failures gracefully in long-running, multi-step asynchronous jobs.",
+        "impact": "Removed manual data-collection work and reduced turnaround time from data source to usable record."
+      },
+      "serverless": {
+        "title": "Event-Driven Serverless Systems",
+        "role": "Backend engineer",
+        "description": "Event-driven applications built on AWS Lambda, SQS and SNS to handle asynchronous processing without managing servers.",
+        "goal": "Decouple slow or bursty workloads from the main request path.",
+        "tech": ["AWS Lambda", "SQS", "SNS", "CloudFormation"],
+        "challenge": "Designing retry and dead-letter strategies that fail loudly instead of silently dropping data.",
+        "impact": "Improved system resilience and cut infrastructure costs by scaling to zero when idle."
+      }
+    }
+  },
+  "timeline": {
+    "eyebrow": "Timeline",
+    "title": "Career path",
+    "items": {
+      "civil_degree": {
+        "period": "2013 — 2019",
+        "title": "B.Eng. in Civil Engineering",
+        "place": "Wyden Área 1",
+        "description": "Built a foundation in structural analysis, precision and rigorous problem-solving."
+      },
+      "trybe": {
+        "period": "2022 — 2023",
+        "title": "Fullstack Development Program",
+        "place": "Trybe",
+        "description": "1,500+ hour intensive program covering fullstack engineering fundamentals and software engineering practices — the pivot point into tech."
+      },
+      "ledax": {
+        "period": "2023 — Present",
+        "title": "Fullstack Developer",
+        "place": "LEDAX Energia",
+        "description": "Leading backend development for a B2B2B energy management platform, with growing ownership over architecture and infrastructure."
+      },
+      "smartrips": {
+        "period": "2024",
+        "title": "Fullstack Developer",
+        "place": "Smartrips",
+        "description": "Scaled and refactored a production web platform in parallel with the LEDAX role."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk",
+    "description": "Open to backend and cloud engineering roles with international teams. The fastest way to reach me is email or LinkedIn.",
+    "email_label": "Email",
+    "linkedin_label": "LinkedIn",
+    "github_label": "GitHub",
+    "location_label": "Location",
+    "location_value": "Bahia, Brazil (open to remote)"
+  },
+  "footer": {
+    "built_with": "Designed & built by Igor Brizack.",
+    "back_to_top": "Back to top"
+  },
+  "lang_switch": {
+    "en": "EN",
+    "pt": "PT"
+  }
+}
